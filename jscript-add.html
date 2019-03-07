@@ -6,33 +6,43 @@
 
 	<meta charset="utf-8" />
 	
-    <title>Recette tout choco</title>
+    <title>Recette gâteau Choco</title>
 
 </head>
 
 
-<body style="background-color: brown">
+<body style="background-color: #943126">
 
 <script>
 
 var gateau = {
-	ingredient1: 'oeuf',
-	ingredient2: 'farine',
-	ingredient3: 'levure',
-	ingredient4: 'lait',
-	ingredient5: 'vanille',
-	ingredient6: 'sucre',
-	ingredient7: 'chocolat'
+	ingredient1: 'Oeufs +',
+	ingredient2: 'Farine +',
+	ingredient3: 'Levure +',
+	ingredient4: 'Lait +',
+	ingredient5: 'Vanille +',
+	ingredient6: 'Sucre ++',
+	ingredient7: 'Chocolat'
 };
 
-for (var id in gateau) { // On stocke l'identifiant dans « id » pour parcourir l'objet « family »
+for (var id in gateau) { 
 
     alert(gateau[id]);
 }
 
-alert('That\'s all !');
-
 </script>
+
+<style>
+
+	a:hover
+	{
+	text-decoration: none;
+	color: white;
+	}
+	
+</style>
+
+	<h2 style="text-align: center"><a href="https://www.goodtoknow.co.uk/recipes/chocolate-gateau" onclick="alert('That\'s all !');">Miam !</a></h2>
 	
 </body>
 
