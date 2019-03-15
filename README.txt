@@ -10,4 +10,4 @@ Une petite mise en pratique de ce que j'ai appris [pour l'instant] via ce cours.
 Merci au professeur Marc G Gauthier et à Openclassrooms :)
 
 
-Yamina Sebah
+Yamina
